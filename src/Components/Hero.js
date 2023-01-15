@@ -9,7 +9,7 @@ export default function Hero () {
                 </div>
                 <div className="hero-desc_div">
                     <h1 className="hero--title">Online Experiences</h1>
-                    <p className="hero--para">Join unique interactive activities led by one-of-a-kind hosts-- all without leaving home.</p>
+                    <p className="hero--para">Join unique interactive activities led by one-of-a-kind hosts -- all without leaving home.</p>
                 </div>
             </div>
         </div>

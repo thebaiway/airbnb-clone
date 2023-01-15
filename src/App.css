@@ -1,5 +1,7 @@
 :root {
-    --page-color: white;
+    --page-gray: #918E98;
+    --page-black: #222;
+    --page-white: #FFF;
 }
 
 * {
@@ -21,6 +23,7 @@
 
 .hero--div {
     padding: 40px;
+    margin-bottom: 50px;
 }
 
 .hero--img_div {
@@ -48,4 +51,50 @@
 .card--div {
     margin-top: -100px;
     padding: 40px;
+    font-size: 13px;
 }
+
+.card--div_img {
+    position: absolute;
+    border-radius: 7px;
+    height: 235px;
+    width: 176px;
+}
+
+.card--div_sold-out {
+    position: relative;
+    font-size: .5rem;
+    text-align: center;
+    bottom: 0px;
+    margin: 5px;
+    padding: 3px;
+    background: var(--page-white);
+    width: 50px;
+}
+
+.card--div_star {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-top: 205px;
+}
+
+.card--div_star-img {
+    width: .8rem;
+}
+
+.card--div_star-desc {
+  padding-top: 1px;
+  font-size: .7rem;
+  color: var(--page-black);
+}
+
+.card--div_star-desc > scan {
+    color: var(--page-gray);
+}
+
+.card--div_price p {
+    font-size: .7rem;
+    margin-top: -5px;
+}
+
