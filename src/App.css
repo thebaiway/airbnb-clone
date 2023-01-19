@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-.app--card_div {
-    display: flex;
-}
-
 .nav--div {
     display:flex;
     align-items: center;

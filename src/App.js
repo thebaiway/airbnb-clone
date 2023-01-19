@@ -9,7 +9,6 @@ function App() {
     <div className="App">
         <Navbar />
         <Hero />
-      <div className="app--card_div">
         <Card 
             img = {Katie}
             status = 'SOLD OUT'
@@ -19,34 +18,6 @@ function App() {
             title = "Life lessons with Katie Zaferes"
             price = "136"
         />
-          <Card 
-            img = {Katie}
-            status = 'SOLD OUT'
-            rating = "5.0"
-            reviewCount = {6}
-            country = "USA"
-            title = "Life lessons with Katie Zaferes"
-            price = "136"
-        />
-        <Card 
-            img = {Katie}
-            status = 'SOLD OUT'
-            rating = "5.0"
-            reviewCount = {6}
-            country = "USA"
-            title = "Life lessons with Katie Zaferes"
-            price = "136"
-        />
-        <Card 
-            img = {Katie}
-            status = 'SOLD OUT'
-            rating = "5.0"
-            reviewCount = {6}
-            country = "USA"
-            title = "Life lessons with Katie Zaferes"
-            price = "136"
-        />
-      </div>
     </div>
   );
 }
